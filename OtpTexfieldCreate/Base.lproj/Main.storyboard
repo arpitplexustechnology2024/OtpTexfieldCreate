@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rM9-tD-iqy">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uW0-VC-R3a">
+            <objects>
+                <viewController id="rM9-tD-iqy" customClass="ViewController" customModule="OtpTexfieldCreate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wqM-l8-JdE">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="Xl5-OV-Upo">
+                                <rect key="frame" x="34" y="725" width="323" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JUg-Hy-276"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign In">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.90595483779999997" green="0.019125713039999999" blue="0.019901879130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 7" translatesAutoresizingMaskIntoConstraints="NO" id="bAu-If-4DE">
+                                <rect key="frame" x="132" y="0.0" width="258" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="314" id="jqQ-5T-1Xw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS Verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qP-fc-EFR">
+                                <rect key="frame" x="115.66666666666669" y="339" width="159" height="27.333333333333314"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="0.90595483779999997" green="0.019125713039999999" blue="0.019901879130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Check SMS For Verification Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfA-UK-5qg">
+                                <rect key="frame" x="40.333333333333343" y="396.33333333333331" width="309.33333333333326" height="23.333333333333314"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iy8-7Q-ewX">
+                                <rect key="frame" x="45" y="432.66666666666669" width="300" height="65"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-rW-89H" customClass="AEOTPTextField" customModule="AEOTPTextField">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="HR8-7z-20K"/>
+                                            <constraint firstAttribute="height" constant="65" id="tGH-9E-LDf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resend 00:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iw-xS-iQM">
+                                <rect key="frame" x="148" y="507.66666666666669" width="94" height="20.666666666666686"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <color key="textColor" red="0.90595483779999997" green="0.019125713039999999" blue="0.019901879130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w4I-T8-N7U"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6iw-xS-iQM" firstAttribute="centerX" secondItem="wqM-l8-JdE" secondAttribute="centerX" id="1tr-Tm-Q0m"/>
+                            <constraint firstItem="bAu-If-4DE" firstAttribute="top" secondItem="wqM-l8-JdE" secondAttribute="top" id="4T3-sM-vCa"/>
+                            <constraint firstItem="w4I-T8-N7U" firstAttribute="trailing" secondItem="Xl5-OV-Upo" secondAttribute="trailing" constant="33" id="6GF-WM-Nhl"/>
+                            <constraint firstItem="bAu-If-4DE" firstAttribute="trailing" secondItem="w4I-T8-N7U" secondAttribute="trailing" id="7nh-Uk-w8b"/>
+                            <constraint firstItem="w4I-T8-N7U" firstAttribute="bottom" secondItem="Xl5-OV-Upo" secondAttribute="bottom" constant="35" id="8Wo-UM-hyH"/>
+                            <constraint firstItem="wfA-UK-5qg" firstAttribute="centerX" secondItem="wqM-l8-JdE" secondAttribute="centerX" id="Crf-sV-hmD"/>
+                            <constraint firstItem="6iw-xS-iQM" firstAttribute="top" secondItem="iy8-7Q-ewX" secondAttribute="bottom" constant="10" id="DPt-5R-qab"/>
+                            <constraint firstItem="iy8-7Q-ewX" firstAttribute="centerX" secondItem="wqM-l8-JdE" secondAttribute="centerX" id="Jof-WW-Is5"/>
+                            <constraint firstItem="wfA-UK-5qg" firstAttribute="top" secondItem="3qP-fc-EFR" secondAttribute="bottom" constant="30" id="PTl-80-Mfw"/>
+                            <constraint firstItem="iy8-7Q-ewX" firstAttribute="top" secondItem="wfA-UK-5qg" secondAttribute="bottom" constant="13" id="ejd-3O-ejy"/>
+                            <constraint firstItem="Xl5-OV-Upo" firstAttribute="leading" secondItem="w4I-T8-N7U" secondAttribute="leading" constant="34" id="hIY-wC-2T6"/>
+                            <constraint firstItem="3qP-fc-EFR" firstAttribute="top" secondItem="bAu-If-4DE" secondAttribute="bottom" constant="25" id="tRV-KZ-o84"/>
+                            <constraint firstItem="3qP-fc-EFR" firstAttribute="centerX" secondItem="wqM-l8-JdE" secondAttribute="centerX" id="xAT-T0-Vef"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="otpTextField" destination="QVz-rW-89H" id="rzk-es-6BQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Bu-z5-2MF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group 7" width="258" height="320"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

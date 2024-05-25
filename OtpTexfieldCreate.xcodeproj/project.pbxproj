@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AAC27F77EE4F1C025C0BF3 /* Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6160BD048B4E10306917C2 /* Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework */; };
+		4AC095AEC8FD2F31EFD27000 /* Pods_OtpTexfieldCreateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A57DB6FC2203B8616F4BD /* Pods_OtpTexfieldCreateTests.framework */; };
+		8CB01ABD576853BFCFB696C0 /* Pods_OtpTexfieldCreate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F4D7197859645FD5AED057 /* Pods_OtpTexfieldCreate.framework */; };
+		BD2820482BEC2B3500167E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2820472BEC2B3500167E80 /* AppDelegate.swift */; };
+		BD28204A2BEC2B3500167E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2820492BEC2B3500167E80 /* SceneDelegate.swift */; };
+		BD28204C2BEC2B3500167E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28204B2BEC2B3500167E80 /* ViewController.swift */; };
+		BD28204F2BEC2B3500167E80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD28204E2BEC2B3500167E80 /* Base */; };
+		BD2820512BEC2B3700167E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2820502BEC2B3700167E80 /* Assets.xcassets */; };
+		BD2820542BEC2B3700167E80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD2820532BEC2B3700167E80 /* Base */; };
+		BD28205F2BEC2B3700167E80 /* OtpTexfieldCreateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28205E2BEC2B3700167E80 /* OtpTexfieldCreateTests.swift */; };
+		BD2820692BEC2B3700167E80 /* OtpTexfieldCreateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2820682BEC2B3700167E80 /* OtpTexfieldCreateUITests.swift */; };
+		BD28206B2BEC2B3700167E80 /* OtpTexfieldCreateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28206A2BEC2B3700167E80 /* OtpTexfieldCreateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD28205B2BEC2B3700167E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD28203C2BEC2B3500167E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2820432BEC2B3500167E80;
+			remoteInfo = OtpTexfieldCreate;
+		};
+		BD2820652BEC2B3700167E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD28203C2BEC2B3500167E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2820432BEC2B3500167E80;
+			remoteInfo = OtpTexfieldCreate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BBC248D8DB1677539FF76C /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.release.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3990BEEB6A08204D7EE1BFA9 /* Pods-OtpTexfieldCreateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreateTests.debug.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreateTests/Pods-OtpTexfieldCreateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BAA84BBBF9E1405FDA916F4 /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.debug.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6160BD048B4E10306917C2 /* Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84832524E2A1F6056808D109 /* Pods-OtpTexfieldCreate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreate.debug.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreate/Pods-OtpTexfieldCreate.debug.xcconfig"; sourceTree = "<group>"; };
+		85F4D7197859645FD5AED057 /* Pods_OtpTexfieldCreate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtpTexfieldCreate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2820442BEC2B3500167E80 /* OtpTexfieldCreate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtpTexfieldCreate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2820472BEC2B3500167E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD2820492BEC2B3500167E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD28204B2BEC2B3500167E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD28204E2BEC2B3500167E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2820502BEC2B3700167E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2820532BEC2B3700167E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2820552BEC2B3700167E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD28205A2BEC2B3700167E80 /* OtpTexfieldCreateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtpTexfieldCreateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD28205E2BEC2B3700167E80 /* OtpTexfieldCreateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTexfieldCreateTests.swift; sourceTree = "<group>"; };
+		BD2820642BEC2B3700167E80 /* OtpTexfieldCreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtpTexfieldCreateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2820682BEC2B3700167E80 /* OtpTexfieldCreateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTexfieldCreateUITests.swift; sourceTree = "<group>"; };
+		BD28206A2BEC2B3700167E80 /* OtpTexfieldCreateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTexfieldCreateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE123E2BA6B81AFCC67DC048 /* Pods-OtpTexfieldCreate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreate.release.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreate/Pods-OtpTexfieldCreate.release.xcconfig"; sourceTree = "<group>"; };
+		F96A57DB6FC2203B8616F4BD /* Pods_OtpTexfieldCreateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtpTexfieldCreateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6A635293F409340771FE2F /* Pods-OtpTexfieldCreateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtpTexfieldCreateTests.release.xcconfig"; path = "Target Support Files/Pods-OtpTexfieldCreateTests/Pods-OtpTexfieldCreateTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2820412BEC2B3500167E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB01ABD576853BFCFB696C0 /* Pods_OtpTexfieldCreate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820572BEC2B3700167E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC095AEC8FD2F31EFD27000 /* Pods_OtpTexfieldCreateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820612BEC2B3700167E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AAC27F77EE4F1C025C0BF3 /* Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE88C97308DA02F830E4695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85F4D7197859645FD5AED057 /* Pods_OtpTexfieldCreate.framework */,
+				6B6160BD048B4E10306917C2 /* Pods_OtpTexfieldCreate_OtpTexfieldCreateUITests.framework */,
+				F96A57DB6FC2203B8616F4BD /* Pods_OtpTexfieldCreateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B30C88CB36CFBFE0BDE47609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84832524E2A1F6056808D109 /* Pods-OtpTexfieldCreate.debug.xcconfig */,
+				BE123E2BA6B81AFCC67DC048 /* Pods-OtpTexfieldCreate.release.xcconfig */,
+				5BAA84BBBF9E1405FDA916F4 /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.debug.xcconfig */,
+				13BBC248D8DB1677539FF76C /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.release.xcconfig */,
+				3990BEEB6A08204D7EE1BFA9 /* Pods-OtpTexfieldCreateTests.debug.xcconfig */,
+				FE6A635293F409340771FE2F /* Pods-OtpTexfieldCreateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD28203B2BEC2B3500167E80 = {
+			isa = PBXGroup;
+			children = (
+				BD2820462BEC2B3500167E80 /* OtpTexfieldCreate */,
+				BD28205D2BEC2B3700167E80 /* OtpTexfieldCreateTests */,
+				BD2820672BEC2B3700167E80 /* OtpTexfieldCreateUITests */,
+				BD2820452BEC2B3500167E80 /* Products */,
+				B30C88CB36CFBFE0BDE47609 /* Pods */,
+				1DE88C97308DA02F830E4695 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2820452BEC2B3500167E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2820442BEC2B3500167E80 /* OtpTexfieldCreate.app */,
+				BD28205A2BEC2B3700167E80 /* OtpTexfieldCreateTests.xctest */,
+				BD2820642BEC2B3700167E80 /* OtpTexfieldCreateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2820462BEC2B3500167E80 /* OtpTexfieldCreate */ = {
+			isa = PBXGroup;
+			children = (
+				BD2820472BEC2B3500167E80 /* AppDelegate.swift */,
+				BD2820492BEC2B3500167E80 /* SceneDelegate.swift */,
+				BD28204B2BEC2B3500167E80 /* ViewController.swift */,
+				BD28204D2BEC2B3500167E80 /* Main.storyboard */,
+				BD2820502BEC2B3700167E80 /* Assets.xcassets */,
+				BD2820522BEC2B3700167E80 /* LaunchScreen.storyboard */,
+				BD2820552BEC2B3700167E80 /* Info.plist */,
+			);
+			path = OtpTexfieldCreate;
+			sourceTree = "<group>";
+		};
+		BD28205D2BEC2B3700167E80 /* OtpTexfieldCreateTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD28205E2BEC2B3700167E80 /* OtpTexfieldCreateTests.swift */,
+			);
+			path = OtpTexfieldCreateTests;
+			sourceTree = "<group>";
+		};
+		BD2820672BEC2B3700167E80 /* OtpTexfieldCreateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2820682BEC2B3700167E80 /* OtpTexfieldCreateUITests.swift */,
+				BD28206A2BEC2B3700167E80 /* OtpTexfieldCreateUITestsLaunchTests.swift */,
+			);
+			path = OtpTexfieldCreateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2820432BEC2B3500167E80 /* OtpTexfieldCreate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD28206E2BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreate" */;
+			buildPhases = (
+				9888E0A558524A1F92B4D771 /* [CP] Check Pods Manifest.lock */,
+				BD2820402BEC2B3500167E80 /* Sources */,
+				BD2820412BEC2B3500167E80 /* Frameworks */,
+				BD2820422BEC2B3500167E80 /* Resources */,
+				929B227406E089BEB97A9840 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtpTexfieldCreate;
+			productName = OtpTexfieldCreate;
+			productReference = BD2820442BEC2B3500167E80 /* OtpTexfieldCreate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2820592BEC2B3700167E80 /* OtpTexfieldCreateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2820712BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreateTests" */;
+			buildPhases = (
+				6465C1F9C84E0091859DB40A /* [CP] Check Pods Manifest.lock */,
+				BD2820562BEC2B3700167E80 /* Sources */,
+				BD2820572BEC2B3700167E80 /* Frameworks */,
+				BD2820582BEC2B3700167E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD28205C2BEC2B3700167E80 /* PBXTargetDependency */,
+			);
+			name = OtpTexfieldCreateTests;
+			productName = OtpTexfieldCreateTests;
+			productReference = BD28205A2BEC2B3700167E80 /* OtpTexfieldCreateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD2820632BEC2B3700167E80 /* OtpTexfieldCreateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2820742BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreateUITests" */;
+			buildPhases = (
+				57F1615FFFB2E7AE3CB0EAAB /* [CP] Check Pods Manifest.lock */,
+				BD2820602BEC2B3700167E80 /* Sources */,
+				BD2820612BEC2B3700167E80 /* Frameworks */,
+				BD2820622BEC2B3700167E80 /* Resources */,
+				61CC78E92C915AF4E2831560 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2820662BEC2B3700167E80 /* PBXTargetDependency */,
+			);
+			name = OtpTexfieldCreateUITests;
+			productName = OtpTexfieldCreateUITests;
+			productReference = BD2820642BEC2B3700167E80 /* OtpTexfieldCreateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD28203C2BEC2B3500167E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BD2820432BEC2B3500167E80 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BD2820592BEC2B3700167E80 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BD2820432BEC2B3500167E80;
+					};
+					BD2820632BEC2B3700167E80 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BD2820432BEC2B3500167E80;
+					};
+				};
+			};
+			buildConfigurationList = BD28203F2BEC2B3500167E80 /* Build configuration list for PBXProject "OtpTexfieldCreate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD28203B2BEC2B3500167E80;
+			productRefGroup = BD2820452BEC2B3500167E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2820432BEC2B3500167E80 /* OtpTexfieldCreate */,
+				BD2820592BEC2B3700167E80 /* OtpTexfieldCreateTests */,
+				BD2820632BEC2B3700167E80 /* OtpTexfieldCreateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2820422BEC2B3500167E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2820512BEC2B3700167E80 /* Assets.xcassets in Resources */,
+				BD2820542BEC2B3700167E80 /* Base in Resources */,
+				BD28204F2BEC2B3500167E80 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820582BEC2B3700167E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820622BEC2B3700167E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F1615FFFB2E7AE3CB0EAAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61CC78E92C915AF4E2831560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests/Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6465C1F9C84E0091859DB40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtpTexfieldCreateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		929B227406E089BEB97A9840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate/Pods-OtpTexfieldCreate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate/Pods-OtpTexfieldCreate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OtpTexfieldCreate/Pods-OtpTexfieldCreate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9888E0A558524A1F92B4D771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtpTexfieldCreate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2820402BEC2B3500167E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28204C2BEC2B3500167E80 /* ViewController.swift in Sources */,
+				BD2820482BEC2B3500167E80 /* AppDelegate.swift in Sources */,
+				BD28204A2BEC2B3500167E80 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820562BEC2B3700167E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28205F2BEC2B3700167E80 /* OtpTexfieldCreateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2820602BEC2B3700167E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2820692BEC2B3700167E80 /* OtpTexfieldCreateUITests.swift in Sources */,
+				BD28206B2BEC2B3700167E80 /* OtpTexfieldCreateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD28205C2BEC2B3700167E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2820432BEC2B3500167E80 /* OtpTexfieldCreate */;
+			targetProxy = BD28205B2BEC2B3700167E80 /* PBXContainerItemProxy */;
+		};
+		BD2820662BEC2B3700167E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2820432BEC2B3500167E80 /* OtpTexfieldCreate */;
+			targetProxy = BD2820652BEC2B3700167E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD28204D2BEC2B3500167E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD28204E2BEC2B3500167E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2820522BEC2B3700167E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2820532BEC2B3700167E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD28206C2BEC2B3700167E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD28206D2BEC2B3700167E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD28206F2BEC2B3700167E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84832524E2A1F6056808D109 /* Pods-OtpTexfieldCreate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtpTexfieldCreate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2820702BEC2B3700167E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE123E2BA6B81AFCC67DC048 /* Pods-OtpTexfieldCreate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtpTexfieldCreate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD2820722BEC2B3700167E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3990BEEB6A08204D7EE1BFA9 /* Pods-OtpTexfieldCreateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtpTexfieldCreate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OtpTexfieldCreate";
+			};
+			name = Debug;
+		};
+		BD2820732BEC2B3700167E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6A635293F409340771FE2F /* Pods-OtpTexfieldCreateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtpTexfieldCreate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OtpTexfieldCreate";
+			};
+			name = Release;
+		};
+		BD2820752BEC2B3700167E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAA84BBBF9E1405FDA916F4 /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtpTexfieldCreate;
+			};
+			name = Debug;
+		};
+		BD2820762BEC2B3700167E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BBC248D8DB1677539FF76C /* Pods-OtpTexfieldCreate-OtpTexfieldCreateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OtpTexfieldCreateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtpTexfieldCreate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD28203F2BEC2B3500167E80 /* Build configuration list for PBXProject "OtpTexfieldCreate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28206C2BEC2B3700167E80 /* Debug */,
+				BD28206D2BEC2B3700167E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD28206E2BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28206F2BEC2B3700167E80 /* Debug */,
+				BD2820702BEC2B3700167E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2820712BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2820722BEC2B3700167E80 /* Debug */,
+				BD2820732BEC2B3700167E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2820742BEC2B3700167E80 /* Build configuration list for PBXNativeTarget "OtpTexfieldCreateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2820752BEC2B3700167E80 /* Debug */,
+				BD2820762BEC2B3700167E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD28203C2BEC2B3500167E80 /* Project object */;
+}
